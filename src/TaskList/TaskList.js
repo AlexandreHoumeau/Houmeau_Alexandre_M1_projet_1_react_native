@@ -41,7 +41,7 @@ class TaskList extends Component {
           renderItem={( index, item ) => (
             <Task remove={this.removeTask} toggleTask={this.toggleTask} item={item, index}/>
           )}
-          keyExtractor={item => item.id}
+          keyExtractor={item => item.id.toString()}
         />
       </View>
     )
