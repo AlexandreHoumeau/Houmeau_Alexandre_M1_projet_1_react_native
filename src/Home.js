@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from 'react-native';
-import Top from "./Top/Top";
-import TaskList from "./TaskList/TaskList";
-import AcButton from "./AcButton/AcButton";
+import Top from "./components/Views/Top/Top";
+import TaskList from "./components/Views/TaskList/TaskList";
+import AcButton from "./components/Views/AcButton/AcButton";
 
 class Home extends Component {
   constructor(props) {

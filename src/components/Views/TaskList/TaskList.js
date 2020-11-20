@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet, FlatList } from 'react-native';
-import Task from "./Task";
+import Task from "../Task/Task";
 
 class TaskList extends Component {
   constructor(props) {

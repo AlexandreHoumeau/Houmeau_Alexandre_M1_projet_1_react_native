@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { View, Text, Modal, Animated } from 'react-native';
 import ActionButton from 'react-native-action-button';
 import { FontAwesome5 } from '@expo/vector-icons';
-import AddTaskModal from "./AddTaskModal";
+import AddTaskModal from "../Modal/AddTaskModal";
 
 ActionButton.prototype.animateButton = function(animate = true) {
   if (this.state.active) return this.reset();
